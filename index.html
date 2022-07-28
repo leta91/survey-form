@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale="1.0"/>
+  </head>
+  <body>
+    <div>
+      <header>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description"><em>Thank you for taking the time to help us improve the platform</em></p>
+      </header></div>
+<body>
+  <form id="survey-form" action='https://register-demo.freecodecamp.org'>
+    <div>
+    <fieldset>
+    <label id="name-label">Name<input type="text" id="name" required placeholder="Enter your name"></label>
+
+    <label id="email-label">Email<input type="email" id="email" required placeholder="Enter your Email"></label>
+
+    <label id="number-label">Age <p class="smallerfont"> (optional)</p><input type="number" id="number" placeholder="Age" min="1" max="99"/></label>
+    </fieldset>
+  </div>
+  <div>
+  <fieldset>
+    <label>Which option best describes your current role?<select id="dropdown"></label>
+       <option value="">Select current role</option>
+       <option value="1">Full Time Job</option>
+       <option value="2">Full Time Learner</option>
+    </select>
+    </fieldset>
+    </div>
+  
+  <div>
+  <fieldset>
+    <label>Would you recommend freeCodeCamp to a friend?</label>
+    <label><input class="inline" type="radio" name="marketing" value="definitely"> Definitely</label>
+
+    <label><input class="inline" type="radio" name="marketing" value="maybe"> Maybe</label>
+</div>
+</fieldset>
+
+   <div>
+   <fieldset>
+    <label>
+  What would you like to see improved?
+    </label> <p class="smallerfont">(check all that apply)</p>
+    <label>
+      <input class="inline" type="checkbox" value="front-end projects"/> Front-end Projects
+      </label>
+
+     <label>
+       <input class="inline" type="checkbox" value="back-end projects"/> Back-end Projects  
+     </label>
+
+      <label>
+        <input class="inline" type="checkbox" value="data visualization"/> Data Visualization
+        </label>
+        </fieldset>
+
+   <div>
+   <fieldset>
+    <label>Any comments or suggestions?
+    <textarea rows="5" cols="5" placeholder="Enter your comment here..."></textarea></label>
+
+    <button type="submit" id="submit">Submit</button>
+</fieldset>
+    </form>
+    </div>
+    </body>
+</html>
