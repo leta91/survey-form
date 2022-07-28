@@ -1,0 +1,111 @@
+input , select , button {
+  display: block;
+}
+
+input[type="radio"] {
+  display: inline;
+  }
+
+input[type="checkbox"] {
+  display: inline;
+}
+
+  button {
+    background-color: fuchsia;
+    color: #FFFFFF;
+    font-family: Tahoma;
+    border: 0;
+    height: 2.5em;
+    width: 15em;
+    display: block;
+    font-size: 1.1rem;
+    margin: 1em auto;
+  }
+
+p , input , label , select , textarea {
+  font-family: Tahoma;
+  font-size: 18px;
+}
+
+h1 , p {
+  text-align: center;
+}
+
+body {
+  font-family: Tahoma;
+  background-color: violet;
+  color: white;
+  background-image: url(deep-fuchsia-background.jpg);
+}
+
+input {
+  margin:  0 auto;
+  width: 100%;
+  }
+
+.smallerfont {
+display:inline-block;
+margin: 1 auto;
+font-style: italic;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 500px;
+  min-width: 300px;
+  width: 60vw;
+}
+
+fieldset {
+  border: 0;
+  width: 500px;
+  min-width: 300px;
+  box-sizing: border-box;
+  margin-left: 0px auto;
+  margin-right: 0px auto;
+  background-color: violet;
+}
+
+input , textarea , select {
+  width: 100%;
+}
+
+.inline {
+  width: unset;
+  margin: 1 0 0.5em 0;
+  vertical-align: middle;
+}
+
+input , textarea {
+  border: 1px;
+  min-height: 2em;
+}
+
+select {
+  border: 1px solid;
+  min-height: 2em;
+}
+
+fieldset:first-of-type {
+  width: 330px;
+  margin-left: 0 auto;
+  padding-left: 10px;
+  padding-right: 18px;
+  box-sizing: border-box;
+  margin-left: 0px auto;
+  margin-right: 0px auto;
+    
+}
+
+div {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 320px;
+  max-width: 320px;
+}
